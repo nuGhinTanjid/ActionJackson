@@ -1,0 +1,120 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+#rongin{
+    color: orange;
+}
+#oyna{
+     border-left: 5px  solid red;
+  
+}
+.flexContainer{
+    display: flex;
+    height: 80%;
+    padding-bottom: 150px;
+}
+.halfWidth{
+    width: 40%;
+    margin-right: 5%;
+    padding-left: 2%;
+   
+}
+.halfWidth img{
+    width: 80%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+
+    color: white;
+    font: weight 700px;
+    border-radius: 5px;
+}
+
+span{
+    color: orange;
+}
+.halfWidth2{
+    width: 40%;
+    
+    margin-right: 5%;
+    padding-left: 2%;
+}
+#bgC1{
+    background-color: rgb(240, 206, 211);
+    border-radius: 10px;
+    
+}
+#bgC2{
+    background-color: rgb(231, 235, 224) ;
+    border-radius: 10px;
+    margin-left: 40px;
+}
+#bgC3{
+    background-color: rgb(170, 250, 242);
+    border-radius: 10px;
+    margin-left: 40px;
+}
+.bgImg1{
+    display: block;
+}
+.bgImg1 img{
+    width: 50%;
+}
+.bgImg2{
+    display: block;
+}
+.bgImg2 img{
+    width: 50%;
+}
+.bgImg3{
+    display: block;
+}
+.bgImg3 img{
+    width: 50%;
+}
+span{
+    color: orange;
+}
+#first{
+    color: white;
+}
+#second{
+    color: red;
+}
+#sesh{
+    font-style: italic;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.middle{
+    text-align: center;
+}
+.topBan{
+    background-image: url(images/my-bg.png);
+    background-position: left bottom;
+    background-size: 500px;
+    background-repeat: no-repeat;
+}
+.midBan{
+    background-image: url(images/shape-1.png);
+    background-position: right bottom;
+    background-size: 300px;
+    background-repeat: no-repeat;
+
+}
+.botban{
+    background-image: url(images/shape-1.png), url(images/shape-8.png), url(images/shape-3.png);
+    background-position: right center, left top, left bottom;
+    background-repeat: no-repeat;
+    background-size: 300px, 130px, 130px;
+}
