@@ -6,16 +6,19 @@ h1{
     font-size: 50px;
 }
 #rongin{
-    color: orange;
+    color:rgb(0, 226, 121);
 }
 #oyna{
-     border-left: 5px  solid red;
+     border-left: 5px  solid rgb(0, 255, 115);
   
+}
+small{
+    font-size: 20px;
 }
 .flexContainer{
     display: flex;
     height: 80%;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
 }
 .halfWidth{
     width: 40%;
@@ -25,6 +28,7 @@ h1{
 }
 .halfWidth img{
     width: 80%;
+    margin-left: 20px;
 }
 .link-button{
     text-decoration: none;
@@ -37,61 +41,83 @@ h1{
 }
 
 span{
-    color: orange;
+    color: rgb(30, 255, 60);
 }
 .halfWidth2{
-    width: 40%;
+    width: 50%;
     
-    margin-right: 5%;
     padding-left: 2%;
 }
-#bgC1{
+bgC1{
     background-color: rgb(240, 206, 211);
     border-radius: 10px;
     
 }
-#bgC2{
-    background-color: rgb(231, 235, 224) ;
+bgC2{
+    background-color: rgb(177, 238, 73) ;
     border-radius: 10px;
     margin-left: 40px;
 }
-#bgC3{
+bgC3{
     background-color: rgb(170, 250, 242);
     border-radius: 10px;
     margin-left: 40px;
 }
 .bgImg1{
     display: block;
+    box-shadow: 5px 7px 40px white;
+    height: 80%;
+    background-color: rgb(58, 190, 230);
+    padding-left: 2%;
+    border-radius: 10px;
+    margin-left: 40px;
 }
 .bgImg1 img{
     width: 50%;
 }
 .bgImg2{
     display: block;
+    box-shadow: 5px 7px 40px white;
+    height: 80%;
+    background-color: yellow;
+    border-radius: 10px;
+    margin-left: 40px;
+    padding-left: 2%;
+    
 }
 .bgImg2 img{
     width: 50%;
 }
 .bgImg3{
     display: block;
+    box-shadow: 5px 7px 40px white;
+    height: 80%;
+    background-color: turquoise;
+    border-radius: 10px;
+    margin-left: 40px;
+    padding-left: 2%;
+    margin-right: 20px;
+    
 }
 .bgImg3 img{
     width: 50%;
 }
 span{
-    color: orange;
+    color: rgb(228, 9, 9);
 }
+
 #first{
     color: white;
 }
 #second{
     color: red;
 }
+
 #sesh{
     font-style: italic;
 }
 footer{
-    background-color: black;
+    background-color: rgb(20, 20, 20);
     color: white;
     text-align: center;
 }
@@ -100,10 +126,10 @@ footer{
     text-align: center;
 }
 .topBan{
-    background-image: url(images/my-bg.png);
-    background-position: left bottom;
-    background-size: 500px;
+     background-image: url(images/shape-1.png), url(images/shape-8.png), url(images/shape-3.png);
+    background-position: right center, left top, left bottom;
     background-repeat: no-repeat;
+    background-size: 300px, 130px, 130px;
 }
 .midBan{
     background-image: url(images/shape-1.png);
